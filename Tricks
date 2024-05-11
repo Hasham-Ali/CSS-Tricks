@@ -1,3 +1,11 @@
+/*----- Responsive -----*/
+
+Desktop Standard Resolution
+1920 | 1720 | 1680 | 1600 | 1440 | 1366 | 1280 | 1200
+
+Tab/Mobile Standard Resolution
+1024 | 991 | 960 | 768 | 767 | 667 | 568 | 425 | 414 | 375 | 320
+
 /*----- Gradient Border -----*/
 .box {
     border-width: 10px;
