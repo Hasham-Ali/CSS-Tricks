@@ -1,0 +1,15 @@
+/*----- Gradient Border -----*/
+.box {
+    border-width: 10px;
+    border-style: solid;
+    border-image: linear-gradient(90deg, #C9A54D 0.04%, #E1C66D 28.67%, #F3E18A 54.05%, #ECD14D 78.11%, #DCC771 100%);
+    border-image-slice: 1;
+}
+
+
+/*----- color white filter -----*/
+filter: brightness(0.0) invert(1);
+
+
+/*----- color black filter -----*/
+filter: brightness(0%);
