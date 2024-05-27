@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn svg</title>
+</head>
+
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        background: black;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+    }
+
+    .container {
+        height: 500px;
+        width: 500px;
+        position: relative;
+        background-color: cadetblue;
+        border: 1px solid #000;
+    }
+
+</style>
+
+<body>
+
+    <div class="container">
+            <svg viewBox="0 0 200 200">
+                <line x1="25" y1="30" x2="75" y2="70" stroke="blue"></line>
+                <line x1="75" y1="30" x2="25" y2="70" stroke="blue"></line>
+                <rect x="100" y="30" height="40" width="20" fill="pink" stroke="blue"></rect>
+                <circle cx="160" cy="50" r="20" fill="orange" stroke="blue"></circle>
+            </svg>
+    </div>
+
+</body>
+</html>
