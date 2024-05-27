@@ -44,6 +44,7 @@
 
     <div class="container">
         <svg viewBox="0 0 200 200">
+            <text class="svg-text1" text-anchor="middle" x="50%" y="60%">svg text 1</text>
             <line x1="25" y1="30" x2="75" y2="70" stroke="blue"></line>
             <line x1="75" y1="30" x2="25" y2="70" stroke="blue"></line>
             <rect x="100" y="30" height="40" width="20" fill="pink" stroke="blue"></rect>
