@@ -28,18 +28,32 @@
         border: 1px solid #000;
     }
 
+    .second-elp {
+        transform: rotate(53deg);
+        transform-origin: 25px 130px;
+    }
+
+    .third-elp {
+        transform: rotate(130deg);
+        transform-origin: 25px 130px;
+    }
+
 </style>
 
 <body>
 
     <div class="container">
-            <svg viewBox="0 0 200 200">
-                <line x1="25" y1="30" x2="75" y2="70" stroke="blue"></line>
-                <line x1="75" y1="30" x2="25" y2="70" stroke="blue"></line>
-                <rect x="100" y="30" height="40" width="20" fill="pink" stroke="blue"></rect>
-                <circle cx="160" cy="50" r="20" fill="orange" stroke="blue"></circle>
-            </svg>
+        <svg viewBox="0 0 200 200">
+            <line x1="25" y1="30" x2="75" y2="70" stroke="blue"></line>
+            <line x1="75" y1="30" x2="25" y2="70" stroke="blue"></line>
+            <rect x="100" y="30" height="40" width="20" fill="pink" stroke="blue"></rect>
+            <circle class="circle-ani" cx="160" cy="50" r="20" fill="orange" stroke="blue"></circle>
+            <ellipse class="first-elp" cx="25" cy="130" rx="10" ry="30" fill="none" stroke="black"></ellipse>
+            <ellipse class="second-elp" cx="25" cy="130" rx="10" ry="30" fill="none" stroke="black"></ellipse>
+            <ellipse class="third-elp" cx="25" cy="130" rx="10" ry="30" fill="none" stroke="black"></ellipse>
+        </svg>
     </div>
 
 </body>
+
 </html>
