@@ -14,7 +14,7 @@ Tab/Mobile Standard Resolution
     border-image-slice: 1;
 }
 
-
+box-shadow: 7px 10px 4px oklch(0 0 0 / .16);
 /*----- color white filter -----*/
 filter: brightness(0.0) invert(1);
 
